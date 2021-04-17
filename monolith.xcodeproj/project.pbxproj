@@ -3,19 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0FD2F326233755006A7D8E /* MNReservableTimeGroupInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0FD2F226233755006A7D8E /* MNReservableTimeGroupInfo.swift */; };
+		2C0FD2FF26233ACC006A7D8E /* MNReserableTimeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0FD2FE26233ACC006A7D8E /* MNReserableTimeHeaderView.swift */; };
+		2C0FD30326234A07006A7D8E /* MNStepButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0FD30226234A07006A7D8E /* MNStepButton.swift */; };
+		2C4965812623539900DC45E4 /* Reactive+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4965802623539900DC45E4 /* Reactive+UIButton.swift */; };
+		2CB079D726209D4B006C3D41 /* MNReservableDateTimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB079D626209D4B006C3D41 /* MNReservableDateTimePickerViewController.swift */; };
+		2CB079DB26209D8E006C3D41 /* MNReservableDayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB079DA26209D8E006C3D41 /* MNReservableDayCollectionViewCell.swift */; };
+		2CB079E52620A065006C3D41 /* MNReservableDayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB079E42620A065006C3D41 /* MNReservableDayInfo.swift */; };
+		2CB079E92620A26D006C3D41 /* MNClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB079E82620A26D006C3D41 /* MNClient.swift */; };
+		2CB0D40A26218C02008A4278 /* MNReserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0D40926218C02008A4278 /* MNReserveViewController.swift */; };
+		2CB0D40E26218CF6008A4278 /* MNTicketPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0D40D26218CF6008A4278 /* MNTicketPurchaseViewController.swift */; };
+		2CB0D4162621AA48008A4278 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0D4152621AA48008A4278 /* Date+.swift */; };
+		2CB0D41A2621B1A2008A4278 /* Reactive+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0D4192621B1A2008A4278 /* Reactive+NSObject.swift */; };
+		2CB0D41D2621E452008A4278 /* MNReservableTimeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0D41C2621E452008A4278 /* MNReservableTimeInfo.swift */; };
+		2CB0D4202621EF27008A4278 /* MNReservableTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0D41F2621EF27008A4278 /* MNReservableTimeCollectionViewCell.swift */; };
+		2CB15982261F2AB000A1245F /* MNReservableDaysResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB15981261F2AB000A1245F /* MNReservableDaysResponse.swift */; };
+		2CB15985261F2AC300A1245F /* MNBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB15984261F2AC300A1245F /* MNBaseResponse.swift */; };
+		2CB1598E261F33D000A1245F /* MNReservableTimesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1598D261F33D000A1245F /* MNReservableTimesResponse.swift */; };
+		2CB15991261F3BFC00A1245F /* Reserve.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB15990261F3BFC00A1245F /* Reserve.storyboard */; };
+		2CB1987526228FA7003E7730 /* MNCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1987426228FA7003E7730 /* MNCollectionViewLayout.swift */; };
+		2CB1987826229037003E7730 /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1987726229037003E7730 /* UITableViewCell+.swift */; };
+		2CB1987C2622AE73003E7730 /* MNTicketPurchaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1987B2622AE73003E7730 /* MNTicketPurchaseViewModel.swift */; };
+		2CB198842622C55C003E7730 /* MNStepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB198832622C55C003E7730 /* MNStepViewModel.swift */; };
+		2CB1988B2622DAF5003E7730 /* MNStepPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1988A2622DAF5003E7730 /* MNStepPage.swift */; };
+		2CB1988E2622F64A003E7730 /* MNEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1988D2622F64A003E7730 /* MNEmptyView.swift */; };
+		2CB198922622F9F3003E7730 /* MNPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB198912622F9F3003E7730 /* MNPaymentViewController.swift */; };
+		2CB198972622FB68003E7730 /* MNPaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB198962622FB68003E7730 /* MNPaymentViewModel.swift */; };
+		2CB1F1F326213C3E006E4D9C /* MNReservableTimePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1F1F226213C3E006E4D9C /* MNReservableTimePickerViewModel.swift */; };
 		2CD6636B261DFDC600276FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6636A261DFDC600276FB2 /* AppDelegate.swift */; };
 		2CD6636D261DFDC600276FB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6636C261DFDC600276FB2 /* SceneDelegate.swift */; };
 		2CD6636F261DFDC600276FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6636E261DFDC600276FB2 /* ViewController.swift */; };
 		2CD66372261DFDC600276FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD66370261DFDC600276FB2 /* Main.storyboard */; };
 		2CD66374261DFDC700276FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD66373261DFDC700276FB2 /* Assets.xcassets */; };
 		2CD66377261DFDC700276FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD66375261DFDC700276FB2 /* LaunchScreen.storyboard */; };
+		2CD66380261DFE3100276FB2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6637F261DFE3100276FB2 /* Podfile */; };
+		2CD6638B261E023900276FB2 /* date.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6638A261E023900276FB2 /* date.json */; };
+		2CD6638E261E023F00276FB2 /* basic.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6638D261E023F00276FB2 /* basic.json */; };
+		2CD66391261E024500276FB2 /* sunday.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CD66390261E024500276FB2 /* sunday.json */; };
+		2CDD63C4262AAD1D0055A6FE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD63C3262AAD1D0055A6FE /* .gitignore */; };
+		56857B455FA6A606BACCF66C /* Pods_monolith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5869CC771DE3CC845EA8B6AF /* Pods_monolith.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0FD2F226233755006A7D8E /* MNReservableTimeGroupInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableTimeGroupInfo.swift; sourceTree = "<group>"; };
+		2C0FD2FE26233ACC006A7D8E /* MNReserableTimeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReserableTimeHeaderView.swift; sourceTree = "<group>"; };
+		2C0FD30226234A07006A7D8E /* MNStepButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNStepButton.swift; sourceTree = "<group>"; };
+		2C4965802623539900DC45E4 /* Reactive+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reactive+UIButton.swift"; sourceTree = "<group>"; };
+		2CB079D626209D4B006C3D41 /* MNReservableDateTimePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableDateTimePickerViewController.swift; sourceTree = "<group>"; };
+		2CB079DA26209D8E006C3D41 /* MNReservableDayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableDayCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CB079E42620A065006C3D41 /* MNReservableDayInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableDayInfo.swift; sourceTree = "<group>"; };
+		2CB079E82620A26D006C3D41 /* MNClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNClient.swift; sourceTree = "<group>"; };
+		2CB0D40926218C02008A4278 /* MNReserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReserveViewController.swift; sourceTree = "<group>"; };
+		2CB0D40D26218CF6008A4278 /* MNTicketPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNTicketPurchaseViewController.swift; sourceTree = "<group>"; };
+		2CB0D4152621AA48008A4278 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		2CB0D4192621B1A2008A4278 /* Reactive+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reactive+NSObject.swift"; sourceTree = "<group>"; };
+		2CB0D41C2621E452008A4278 /* MNReservableTimeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableTimeInfo.swift; sourceTree = "<group>"; };
+		2CB0D41F2621EF27008A4278 /* MNReservableTimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CB15981261F2AB000A1245F /* MNReservableDaysResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableDaysResponse.swift; sourceTree = "<group>"; };
+		2CB15984261F2AC300A1245F /* MNBaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNBaseResponse.swift; sourceTree = "<group>"; };
+		2CB1598D261F33D000A1245F /* MNReservableTimesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableTimesResponse.swift; sourceTree = "<group>"; };
+		2CB15990261F3BFC00A1245F /* Reserve.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reserve.storyboard; sourceTree = "<group>"; };
+		2CB1987426228FA7003E7730 /* MNCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNCollectionViewLayout.swift; sourceTree = "<group>"; };
+		2CB1987726229037003E7730 /* UITableViewCell+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+.swift"; sourceTree = "<group>"; };
+		2CB1987B2622AE73003E7730 /* MNTicketPurchaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNTicketPurchaseViewModel.swift; sourceTree = "<group>"; };
+		2CB198832622C55C003E7730 /* MNStepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNStepViewModel.swift; sourceTree = "<group>"; };
+		2CB1988A2622DAF5003E7730 /* MNStepPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNStepPage.swift; sourceTree = "<group>"; };
+		2CB1988D2622F64A003E7730 /* MNEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNEmptyView.swift; sourceTree = "<group>"; };
+		2CB198912622F9F3003E7730 /* MNPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNPaymentViewController.swift; sourceTree = "<group>"; };
+		2CB198962622FB68003E7730 /* MNPaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNPaymentViewModel.swift; sourceTree = "<group>"; };
+		2CB1F1F226213C3E006E4D9C /* MNReservableTimePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNReservableTimePickerViewModel.swift; sourceTree = "<group>"; };
 		2CD66367261DFDC600276FB2 /* monolith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = monolith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD6636A261DFDC600276FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD6636C261DFDC600276FB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +84,14 @@
 		2CD66373261DFDC700276FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CD66376261DFDC700276FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CD66378261DFDC700276FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD6637F261DFE3100276FB2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CD6638A261E023900276FB2 /* date.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = date.json; sourceTree = "<group>"; };
+		2CD6638D261E023F00276FB2 /* basic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = basic.json; sourceTree = "<group>"; };
+		2CD66390261E024500276FB2 /* sunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunday.json; sourceTree = "<group>"; };
+		2CDD63C3262AAD1D0055A6FE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5869CC771DE3CC845EA8B6AF /* Pods_monolith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_monolith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6541D527C85EECFD50AC657C /* Pods-monolith.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monolith.release.xcconfig"; path = "Target Support Files/Pods-monolith/Pods-monolith.release.xcconfig"; sourceTree = "<group>"; };
+		79C552BC8ABFB5D159E64C61 /* Pods-monolith.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monolith.debug.xcconfig"; path = "Target Support Files/Pods-monolith/Pods-monolith.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +99,160 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56857B455FA6A606BACCF66C /* Pods_monolith.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2232E286B50E27B44FA22A87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5869CC771DE3CC845EA8B6AF /* Pods_monolith.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C0FD301262349EE006A7D8E /* button */ = {
+			isa = PBXGroup;
+			children = (
+				2C0FD30226234A07006A7D8E /* MNStepButton.swift */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		2CB079D326209C9D006C3D41 /* reserve */ = {
+			isa = PBXGroup;
+			children = (
+				2CB079D526209CBB006C3D41 /* timePicker */,
+				2CB0D40926218C02008A4278 /* MNReserveViewController.swift */,
+			);
+			path = reserve;
+			sourceTree = "<group>";
+		};
+		2CB079D426209CAF006C3D41 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				2C0FD301262349EE006A7D8E /* button */,
+				2CB1987426228FA7003E7730 /* MNCollectionViewLayout.swift */,
+				2CB1988A2622DAF5003E7730 /* MNStepPage.swift */,
+				2CB1988D2622F64A003E7730 /* MNEmptyView.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		2CB079D526209CBB006C3D41 /* timePicker */ = {
+			isa = PBXGroup;
+			children = (
+				2CB079D626209D4B006C3D41 /* MNReservableDateTimePickerViewController.swift */,
+				2CB079DA26209D8E006C3D41 /* MNReservableDayCollectionViewCell.swift */,
+				2CB0D41F2621EF27008A4278 /* MNReservableTimeCollectionViewCell.swift */,
+				2C0FD2FE26233ACC006A7D8E /* MNReserableTimeHeaderView.swift */,
+			);
+			path = timePicker;
+			sourceTree = "<group>";
+		};
+		2CB079DF26209FF6006C3D41 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2CB079E02620A00A006C3D41 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				2CD6638A261E023900276FB2 /* date.json */,
+				2CD6638D261E023F00276FB2 /* basic.json */,
+				2CD66390261E024500276FB2 /* sunday.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		2CB079E32620A053006C3D41 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				2CB079E42620A065006C3D41 /* MNReservableDayInfo.swift */,
+				2CB0D41C2621E452008A4278 /* MNReservableTimeInfo.swift */,
+				2C0FD2F226233755006A7D8E /* MNReservableTimeGroupInfo.swift */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		2CB0D40C26218C5C008A4278 /* ticket */ = {
+			isa = PBXGroup;
+			children = (
+				2CB0D40D26218CF6008A4278 /* MNTicketPurchaseViewController.swift */,
+			);
+			path = ticket;
+			sourceTree = "<group>";
+		};
+		2CB1598A261F30B700A1245F /* days */ = {
+			isa = PBXGroup;
+			children = (
+				2CB15981261F2AB000A1245F /* MNReservableDaysResponse.swift */,
+			);
+			path = days;
+			sourceTree = "<group>";
+		};
+		2CB1598B261F30BC00A1245F /* times */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1598D261F33D000A1245F /* MNReservableTimesResponse.swift */,
+			);
+			path = times;
+			sourceTree = "<group>";
+		};
+		2CB1987A2622AE27003E7730 /* ticket */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1987B2622AE73003E7730 /* MNTicketPurchaseViewModel.swift */,
+			);
+			path = ticket;
+			sourceTree = "<group>";
+		};
+		2CB198822622C537003E7730 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				2CB198832622C55C003E7730 /* MNStepViewModel.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		2CB198902622F994003E7730 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				2CB198912622F9F3003E7730 /* MNPaymentViewController.swift */,
+			);
+			path = payment;
+			sourceTree = "<group>";
+		};
+		2CB198952622FB49003E7730 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				2CB198962622FB68003E7730 /* MNPaymentViewModel.swift */,
+			);
+			path = payment;
+			sourceTree = "<group>";
+		};
+		2CB1F1F126213BDA006E4D9C /* reserve */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1F1F226213C3E006E4D9C /* MNReservableTimePickerViewModel.swift */,
+			);
+			path = reserve;
+			sourceTree = "<group>";
+		};
 		2CD6635E261DFDC600276FB2 = {
 			isa = PBXGroup;
 			children = (
+				2CD6637F261DFE3100276FB2 /* Podfile */,
+				2CDD63C3262AAD1D0055A6FE /* .gitignore */,
 				2CD66369261DFDC600276FB2 /* monolith */,
 				2CD66368261DFDC600276FB2 /* Products */,
+				D53921845D18464C4567F6B3 /* Pods */,
+				2232E286B50E27B44FA22A87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +267,92 @@
 		2CD66369261DFDC600276FB2 /* monolith */ = {
 			isa = PBXGroup;
 			children = (
+				2CD66393261E03C900276FB2 /* extensions */,
+				2CD66389261E01DB00276FB2 /* data */,
+				2CB079DF26209FF6006C3D41 /* model */,
+				2CD66385261DFE8D00276FB2 /* view */,
+				2CD66386261DFE9700276FB2 /* viewModels */,
+				2CD66387261DFEA400276FB2 /* network */,
+				2CB079E32620A053006C3D41 /* info */,
 				2CD6636A261DFDC600276FB2 /* AppDelegate.swift */,
 				2CD6636C261DFDC600276FB2 /* SceneDelegate.swift */,
 				2CD6636E261DFDC600276FB2 /* ViewController.swift */,
 				2CD66370261DFDC600276FB2 /* Main.storyboard */,
+				2CB15990261F3BFC00A1245F /* Reserve.storyboard */,
 				2CD66373261DFDC700276FB2 /* Assets.xcassets */,
 				2CD66375261DFDC700276FB2 /* LaunchScreen.storyboard */,
 				2CD66378261DFDC700276FB2 /* Info.plist */,
 			);
 			path = monolith;
+			sourceTree = "<group>";
+		};
+		2CD66385261DFE8D00276FB2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2CB079D426209CAF006C3D41 /* common */,
+				2CB198902622F994003E7730 /* payment */,
+				2CB0D40C26218C5C008A4278 /* ticket */,
+				2CB079D326209C9D006C3D41 /* reserve */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2CD66386261DFE9700276FB2 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2CB198822622C537003E7730 /* common */,
+				2CB198952622FB49003E7730 /* payment */,
+				2CB1987A2622AE27003E7730 /* ticket */,
+				2CB1F1F126213BDA006E4D9C /* reserve */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		2CD66387261DFEA400276FB2 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				2CD66388261DFEC000276FB2 /* protocols */,
+				2CB079E82620A26D006C3D41 /* MNClient.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		2CD66388261DFEC000276FB2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1598B261F30BC00A1245F /* times */,
+				2CB1598A261F30B700A1245F /* days */,
+				2CB15984261F2AC300A1245F /* MNBaseResponse.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		2CD66389261E01DB00276FB2 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				2CB079E02620A00A006C3D41 /* json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		2CD66393261E03C900276FB2 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CB0D4152621AA48008A4278 /* Date+.swift */,
+				2CB1987726229037003E7730 /* UITableViewCell+.swift */,
+				2CB0D4192621B1A2008A4278 /* Reactive+NSObject.swift */,
+				2C4965802623539900DC45E4 /* Reactive+UIButton.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		D53921845D18464C4567F6B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79C552BC8ABFB5D159E64C61 /* Pods-monolith.debug.xcconfig */,
+				6541D527C85EECFD50AC657C /* Pods-monolith.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CD6637B261DFDC700276FB2 /* Build configuration list for PBXNativeTarget "monolith" */;
 			buildPhases = (
+				898406BCD77DB023946835D2 /* [CP] Check Pods Manifest.lock */,
 				2CD66363261DFDC600276FB2 /* Sources */,
 				2CD66364261DFDC600276FB2 /* Frameworks */,
 				2CD66365261DFDC600276FB2 /* Resources */,
+				35B7BD17E235C371567387B6 /* [CP] Embed Pods Frameworks */,
+				2C36B92F2623E12A00E3BCCD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,20 +417,111 @@
 			files = (
 				2CD66377261DFDC700276FB2 /* LaunchScreen.storyboard in Resources */,
 				2CD66374261DFDC700276FB2 /* Assets.xcassets in Resources */,
+				2CD66391261E024500276FB2 /* sunday.json in Resources */,
+				2CD6638E261E023F00276FB2 /* basic.json in Resources */,
+				2CD66380261DFE3100276FB2 /* Podfile in Resources */,
+				2CB15991261F3BFC00A1245F /* Reserve.storyboard in Resources */,
+				2CD6638B261E023900276FB2 /* date.json in Resources */,
+				2CDD63C4262AAD1D0055A6FE /* .gitignore in Resources */,
 				2CD66372261DFDC600276FB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C36B92F2623E12A00E3BCCD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$PRODUCT_SETTINGS_PATH\")\necho \"/usr/libexec/PlistBuddy -c 'Print CFBundleVersion $PRODUCT_SETTINGS_PATH'\"\nif [ -z \"$buildNumber\" ] || [ \"$buildNumber\" = \"\\$(CURRENT_PROJECT_VERSION)\" ]\nthen\n        echo \"${PRODUCT_NAME} buildNumber is [empty]\"\n        buildNumber=1\nelse\n        echo \"${PRODUCT_NAME} buildnumber is $buildNumber\"\n        buildNumber=$((buildNumber + 1))\nfi\n\necho \"\\n${PRODUCT_NAME} new buildnumber = $buildNumber\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$PRODUCT_SETTINGS_PATH\"\n";
+		};
+		35B7BD17E235C371567387B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-monolith/Pods-monolith-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-monolith/Pods-monolith-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-monolith/Pods-monolith-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898406BCD77DB023946835D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-monolith-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CD66363261DFDC600276FB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB198922622F9F3003E7730 /* MNPaymentViewController.swift in Sources */,
 				2CD6636F261DFDC600276FB2 /* ViewController.swift in Sources */,
 				2CD6636B261DFDC600276FB2 /* AppDelegate.swift in Sources */,
+				2CB0D40A26218C02008A4278 /* MNReserveViewController.swift in Sources */,
 				2CD6636D261DFDC600276FB2 /* SceneDelegate.swift in Sources */,
+				2CB1987C2622AE73003E7730 /* MNTicketPurchaseViewModel.swift in Sources */,
+				2CB079E92620A26D006C3D41 /* MNClient.swift in Sources */,
+				2CB198842622C55C003E7730 /* MNStepViewModel.swift in Sources */,
+				2CB1988B2622DAF5003E7730 /* MNStepPage.swift in Sources */,
+				2CB1598E261F33D000A1245F /* MNReservableTimesResponse.swift in Sources */,
+				2CB1987826229037003E7730 /* UITableViewCell+.swift in Sources */,
+				2CB0D41D2621E452008A4278 /* MNReservableTimeInfo.swift in Sources */,
+				2C0FD30326234A07006A7D8E /* MNStepButton.swift in Sources */,
+				2CB0D40E26218CF6008A4278 /* MNTicketPurchaseViewController.swift in Sources */,
+				2CB0D4162621AA48008A4278 /* Date+.swift in Sources */,
+				2CB079D726209D4B006C3D41 /* MNReservableDateTimePickerViewController.swift in Sources */,
+				2CB1F1F326213C3E006E4D9C /* MNReservableTimePickerViewModel.swift in Sources */,
+				2CB0D4202621EF27008A4278 /* MNReservableTimeCollectionViewCell.swift in Sources */,
+				2CB079DB26209D8E006C3D41 /* MNReservableDayCollectionViewCell.swift in Sources */,
+				2CB1987526228FA7003E7730 /* MNCollectionViewLayout.swift in Sources */,
+				2C0FD2FF26233ACC006A7D8E /* MNReserableTimeHeaderView.swift in Sources */,
+				2CB079E52620A065006C3D41 /* MNReservableDayInfo.swift in Sources */,
+				2CB1988E2622F64A003E7730 /* MNEmptyView.swift in Sources */,
+				2C4965812623539900DC45E4 /* Reactive+UIButton.swift in Sources */,
+				2CB15985261F2AC300A1245F /* MNBaseResponse.swift in Sources */,
+				2CB0D41A2621B1A2008A4278 /* Reactive+NSObject.swift in Sources */,
+				2CB15982261F2AB000A1245F /* MNReservableDaysResponse.swift in Sources */,
+				2C0FD2F326233755006A7D8E /* MNReservableTimeGroupInfo.swift in Sources */,
+				2CB198972622FB68003E7730 /* MNPaymentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,17 +665,19 @@
 		};
 		2CD6637C261DFDC700276FB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C552BC8ABFB5D159E64C61 /* Pods-monolith.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M29A6H95KD;
 				INFOPLIST_FILE = monolith/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.leesam.monolith;
+				PRODUCT_BUNDLE_IDENTIFIER = clonecoding.leesam.monolith;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,17 +686,19 @@
 		};
 		2CD6637D261DFDC700276FB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6541D527C85EECFD50AC657C /* Pods-monolith.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M29A6H95KD;
 				INFOPLIST_FILE = monolith/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.leesam.monolith;
+				PRODUCT_BUNDLE_IDENTIFIER = clonecoding.leesam.monolith;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
