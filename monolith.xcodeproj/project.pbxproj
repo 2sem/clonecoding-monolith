@@ -45,6 +45,7 @@
 		2CD6638E261E023F00276FB2 /* basic.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6638D261E023F00276FB2 /* basic.json */; };
 		2CD66391261E024500276FB2 /* sunday.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CD66390261E024500276FB2 /* sunday.json */; };
 		2CDD63C4262AAD1D0055A6FE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD63C3262AAD1D0055A6FE /* .gitignore */; };
+		2CDD63C8262AB0440055A6FE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD63C7262AB0420055A6FE /* LICENSE */; };
 		56857B455FA6A606BACCF66C /* Pods_monolith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5869CC771DE3CC845EA8B6AF /* Pods_monolith.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		2CD6638D261E023F00276FB2 /* basic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = basic.json; sourceTree = "<group>"; };
 		2CD66390261E024500276FB2 /* sunday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunday.json; sourceTree = "<group>"; };
 		2CDD63C3262AAD1D0055A6FE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2CDD63C7262AB0420055A6FE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5869CC771DE3CC845EA8B6AF /* Pods_monolith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_monolith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6541D527C85EECFD50AC657C /* Pods-monolith.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monolith.release.xcconfig"; path = "Target Support Files/Pods-monolith/Pods-monolith.release.xcconfig"; sourceTree = "<group>"; };
 		79C552BC8ABFB5D159E64C61 /* Pods-monolith.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monolith.debug.xcconfig"; path = "Target Support Files/Pods-monolith/Pods-monolith.debug.xcconfig"; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 			children = (
 				2CD6637F261DFE3100276FB2 /* Podfile */,
 				2CDD63C3262AAD1D0055A6FE /* .gitignore */,
+				2CDD63C7262AB0420055A6FE /* LICENSE */,
 				2CD66369261DFDC600276FB2 /* monolith */,
 				2CD66368261DFDC600276FB2 /* Products */,
 				D53921845D18464C4567F6B3 /* Pods */,
@@ -419,6 +422,7 @@
 				2CD66374261DFDC700276FB2 /* Assets.xcassets in Resources */,
 				2CD66391261E024500276FB2 /* sunday.json in Resources */,
 				2CD6638E261E023F00276FB2 /* basic.json in Resources */,
+				2CDD63C8262AB0440055A6FE /* LICENSE in Resources */,
 				2CD66380261DFE3100276FB2 /* Podfile in Resources */,
 				2CB15991261F3BFC00A1245F /* Reserve.storyboard in Resources */,
 				2CD6638B261E023900276FB2 /* date.json in Resources */,
